@@ -16,15 +16,19 @@ const navbar = () => {
           </Link>
         </div>
         <ul className="flex gap-3 items-center mt-3">
-          <Link href="/" className="text-white font-semibold">
+          <Link
+            href="/"
+            className="text-white font-semibold hover:text-blue-700"
+          >
             Home
           </Link>
-          <Link href="/" className="text-white font-semibold">
+          <Link
+            href="/"
+            className="text-white font-semibold hover:text-blue-700"
+          >
             Resources
           </Link>
-          <Link href="/team" className="text-white font-semibold">
-            Team
-          </Link>
+
           <Link href="https://discord.gg/RMHKcb8xZR" className="mt-2">
             <Button btn="Join Now" />
           </Link>

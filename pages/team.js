@@ -2,10 +2,12 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 // import t from "../twitter.svg";
 import Link from "next/link";
-const team = () => {
+const Team = () => {
   return (
     <>
-      <Navbar />
+      <h2 className=" text-2xl  font-bold text-center text-white bg-gradient-to-r from-violet-300 to-violet-400">
+        Our Team
+      </h2>
       <div className="w-full h-auto py-5 lg:h-[80vh] justify-center flex-wrap flex bg-gradient-to-r from-violet-300 to-violet-400">
         <div className="ml-5 p-9 h-[400px] w-[250px] member flex items-center justify-center flex-col gap-3 shadow-2xl bg-transparent">
           <img
@@ -76,9 +78,8 @@ const team = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 };
 
-export default team;
+export default Team;
